@@ -1,1 +1,634 @@
-Hello, World!
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="The First Business Intelligence for Trading Cryptocurrencies and Assets">
+    <meta name="keywords" content="investment,trading,cryptoassets, cryptocurrencies, bitcoin, finance">
+    <meta name="author" content="Jose Carlos Sancho">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- SITE TITLE -->
+    <title>Hyppex</title>
+
+    <!-- =========================
+     FAV AND TOUCH ICONS AND FONT  
+    ============================== -->
+    <link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
+    <!--<link rel="icon" href="images/favicons/favicon.ico">-->
+    <!--<link rel="apple-touch-icon-precomposed" sizes="152x152" href="images/favicons/favicon-152.png">-->
+    <!--<link rel="apple-touch-icon-precomposed" sizes="120x120" href="images/favicons/favicon-120.png">-->
+    <!--<link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/favicons/favicon-72.png">-->
+    <link rel="apple-touch-icon-precomposed" href="images/favicons/favicon.ico">
+
+    <link href='http://fonts.googleapis.com/css?family=Cabin:400,600|Open+Sans:300,600,400' rel='stylesheet'>
+
+    <!-- =========================
+     STYLESHEETS   
+    ============================== -->
+    <!-- BOOTSTRAP AND ANIMATION -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+
+    <!-- FONT ICONS -->
+    <link rel="stylesheet" href="assets/icons/icons.css">
+
+    <!-- CAROUSEL AND LIGHTBOX -->
+    <link rel="stylesheet" href="css/owl.theme.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/nivo-lightbox.css">
+    <link rel="stylesheet" href="css/nivo_themes/default/default.css">
+
+    <!-- CUSTOM STYLESHEETS -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- RESPONSIVE FIXES -->
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!-- COLORS -->
+    <link rel="stylesheet" href="css/colors/blue.css">
+    <!-- DEFAULT COLOR/ CURRENTLY USING -->
+    <!-- <link rel="stylesheet" href="css/colors/red.css"> -->
+    <!-- <link rel="stylesheet" href="css/colors/green.css"> -->
+    <!-- <link rel="stylesheet" href="css/colors/green2.css"> -->
+    <!-- <link rel="stylesheet" href="css/colors/purple.css"> -->
+    <!-- <link rel="stylesheet" href="css/colors/orange.css"> -->
+
+    <!--[if lt IE 9]>
+			<script src="js/html5shiv.min.js"></script>
+    <![endif]-->
+    <!--[if gte IE 9]>
+      <style type="text/css">
+        .standard-button,
+        .navbar-register-button {
+       filter: none;
+        }
+      </style>
+    <![endif]-->
+    <!-- ****************
+      After neccessary customization/modification, Please minify HTML/CSS according to http://browserdiet.com/en/ for better performance
+     **************** -->
+</head>
+
+<body>
+
+    <!-- =========================
+     PRE LOADER       
+    ============================== -->
+    <div class="preloader">
+        <div class="status">
+            &nbsp;
+        </div>
+    </div>
+
+    <!-- =========================
+     SECTION: HOME / HEADER  
+    ============================== -->
+    <header class="header" data-stellar-background-ratio="0.5" id="home">
+
+        <!-- COLOR OVER IMAGE -->
+        <div class="overlay-layer">
+
+            <!-- STICKY NAVIGATION -->
+            <div class="navbar navbar-inverse bs-docs-nav navbar-fixed-top sticky-navigation appear-on-scroll" role="navigation">
+                <div class="container">
+                    <div class="navbar-header">
+
+                        <!-- LOGO ON STICKY NAV BAR -->
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#stamp-navigation">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-grid-2x2"></span>
+                        </button>
+
+                        <!-- LOGO -->
+                        <a class="navbar-brand" href="#">
+                            <img src="images/logo/hyppex_logo.png" alt="">
+                        </a>
+                    </div>
+
+                    <!-- TOP BAR -->
+                    <div class="navbar-collapse collapse" id="stamp-navigation">
+
+                        <!-- NAVIGATION LINK -->
+                        <ul class="nav navbar-nav navbar-left main-navigation small-text">
+                            <li><a href="#section1">Platform</a>
+                             <li><a href="#section2">Benefits</a>
+                             </li>
+                            <li><a href="#section3">Team</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+                <!-- /END CONTAINER -->
+            </div>
+            <!-- /END STICKY NAVIGATION -->
+
+            <!-- CONTAINER -->
+            <div class="container">
+
+                <!-- ONLY LOGO ON HEADER -->
+                <div class="only-logo">
+                    <div class="navbar">
+                        <div class="navbar-header">
+                            <img class="logo_img" src="images/logo/Bueno1.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12">
+
+                        <!-- HEADING AND BUTTONS -->
+                        <div class="intro-section">
+
+                            <!-- WELCOM MESSAGE -->
+                            <h1 class="intro white-text"> The first business intelligence for trading cryptocurrencies </h1>
+                            <h3 class="white-text">  </h3>
+
+                            <h3 class="white-text"> Stay tuned for upcoming releases  </h3>
+
+                            <!-- MAILCHIMP SUBSCRIBE FORM -->
+                            <div class="row">
+                                <div class="col-sm-10 col-sm-offset-1">
+                                    <div class="horizontal-subscribe-form">
+
+                                        <form class="form-inline mailchimp">
+                                            
+                                            <input type="email" id="cf-email" name="email" class="form-control input-box" placeholder="Enter your Email">
+
+                                            <button type="submit" class="btn btn-primary standard-button">Subscribe</button>
+                                            
+                                        </form>
+
+                                        <!-- MAILCHIMP SUCCESS AND ERROR MESSAGE -->
+                                        <p class="mailchimp-success white-text"><span class="icon-check-alt2 colored-text"></span>Thanks! Please confirm your subscription from your email inbox</p>
+                                        <p class="mailchimp-error white-text"><span class="icon-close-alt2"></span>Error! Please enter correct email</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+
+    <!-- =========================
+     SECTION: PLATFORM
+    ============================== -->
+    <section class="services grey-bg" id="section1">
+        <div class="container">
+
+            <!-- SECTION HEADER -->
+            <div class="section-header">
+                <h2 class="dark-text"> Smart Crypto Trading Platform </h2>
+                <div class="colored-line">
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <!-- SINGLE SERVICE -->
+                <div class="col-md-4 wow fadeInLeft" data-wow-offset="10" data-wow-duration="1.75s">
+                    <div class="single-service border-bottom-hover">
+                        <div class="service-icon colored-text">
+                            <span class="icon-basic-magnifier"></span>
+                        </div>
+                        <h3 class="colored-text"> Realtime Data </h3>
+                        <p>
+                            Analyzing multiple crypto exchanges worldwide on realtime to find best trading opportunities.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- SINGLE SERVICE -->
+                <div class="col-md-4 wow flipInY" data-wow-offset="10" data-wow-duration="1s">
+                    <div class="single-service border-bottom-hover">
+                        <div class="service-icon colored-text">
+                            <span class="icon-ecommerce-graph3"></span>
+                        </div>
+                        <h3 class="colored-text"> Market Analysis  </h3>
+                        <p>
+                            Powerful machine learning algorithms to understand tons of market data
+                            collected from multiple exchanges.
+
+                        </p>
+                    </div>
+                </div>
+
+                <!-- SINGLE SERVICE -->
+                <div class="col-md-4 wow fadeInRight" data-wow-offset="10" data-wow-duration="1.75s">
+                    <div class="single-service border-bottom-hover">
+                        <div class="service-icon colored-text">
+                            <span class="icon-music-shuffle-button"></span>
+                        </div>
+                        <h3 class="colored-text"> Power the Industry </h3>
+                        <p>
+                            Cloud based API's will deliver our amazing market insigths.
+                            Finantial services will be greatly empowered.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- =========================
+    SECTION: BENEFITS
+   ============================== -->
+    <section class="brief grey-bg text-left" id="section2">
+        <div class="container">
+            <div class="row">
+
+                <!-- BRIEF IMAGE -->
+                <div class="col-md-6 wow fadeInLeft" data-wow-offset="20" data-wow-duration="1.75s">
+                    <div class="brief-image-left">
+                        <img src="images/business_man_small.png" alt="">
+                    </div>
+                </div>
+
+                <!-- BRIEF HEADING -->
+                <div class="col-md-6 content-section wow fadeInRight" data-wow-offset="20" data-wow-duration="1.75s">
+                    <div class="small-text-medium uppercase colored-text">
+
+                    </div>
+                    <h2 class="text-left dark-text">Benefits for finantial institutions and investors</h2>
+                    <div class="colored-line-left">
+                    </div>
+                    <p class="text-left">
+                        A platform to uncover opportunities in the emerging crypto asset market
+                    </p>
+
+                    <!-- FEATUR ACCORDION WITH ICON -->
+                    <div class="panel-group" id="accordion">
+
+                        <!-- SINGLE ACORDIION -->
+                        <div class="panel panel-default">
+
+                            <!-- ACORDIION HEADING / TITLE -->
+                            <div class="panel-heading" id="headingOne">
+                                <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                        <span class="icon-container color-bg"><span class="icon-software-horizontal-align-center white-text"></span></span><span class="title-text"> Price Optimizer</span>
+                                    </a>
+                                </h4>
+                            </div>
+
+                            <!-- ACORDIION DESCRIPTION / TEXT -->
+                            <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                                <div class="panel-body">
+                                    Get the best trade for your cryptocurrencies. By providing you market dinamicity data you'll be able to trade at the best exchange.
+                                    Large quantities of cryptocurrencies could be traded without impacting markets.
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- SINGLE ACORDIION -->
+                        <div class="panel panel-default">
+
+                            <!-- ACORDIION HEADING / TITLE -->
+                            <div class="panel-heading" id="headingTwo">
+                                <h4 class="panel-title">
+                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        <span class="icon-container color-bg"><span class="icon-ecommerce-graph-increase white-text"></span></span><span class="title-text"> Open to New Finantial Markets </span>
+                                    </a>
+                                </h4>
+                            </div>
+
+                            <!-- ACORDIION DESCRIPTION / TEXT -->
+                            <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                <div class="panel-body">
+                                    Finantial institutions could provide to their clients value insights and tools to efficiently get access and trade crypto assets worldwide.
+                                    Our API will get access automatically to our data analysis in order to build new investment services.
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- SINGLE ACORDIION -->
+                        <div class="panel panel-default">
+
+                            <!-- ACORDIION HEADING / TITLE -->
+                            <div class="panel-heading" id="headingThree">
+                                <h4 class="panel-title">
+                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        <span class="icon-container color-bg"><span class="icon-basic-magnifier white-text"></span></span><span class="title-text">Time-sensitive Trading</span>
+                                    </a>
+                                </h4>
+                            </div>
+
+                            <!-- ACORDIION DESCRIPTION / TEXT -->
+                            <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                                <div class="panel-body">
+                                   There is a trade off between the time of the trade and the value that you get.
+                                    Depending of the market, the time when the trade is settled could significantly
+                                    impact negatively on the value. Understanding this tradeoff
+                                    is essential to get the most benefits for you.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =========================
+     SECTION: TEAM   
+    ============================== -->
+    <section class="team grey-bg" id="section3">
+        <div class="container">
+
+            <!-- SECTION HEADER -->
+            <div class="section-header">
+                <h2 class="dark-text">Project Team</h2>
+                <div class="colored-line">
+                </div>
+                <div class="sub-heading">
+                    Hyppex started from one such crazy new idea... why not automacally analyze every crypto market.
+                    <br>
+                    We believe that this is the right way forward as there are flooding crypto markets everywhere.
+                    And many people will join our consumer-centric ecosystem.
+                    <br>
+                    We are solving a real problem. A problem that every one is facing...
+                    which exchange should I trade my cryptocurrencies to get the best value at the right time !
+                </div>
+            </div>
+
+            <!-- MEMBERS -->
+            <div class="row wow fadeIn" data-wow-offset="10" data-wow-duration="1.75s">
+
+                <!-- MEMBER -->
+                <div class="col-md-3 col-sm-6 col-md-offset-3">
+                    <div class="team-member wow flipInY" data-wow-offset="10" data-wow-duration="1s">
+                        <div class="member-pic">
+                            <img src="images/team/josecarlos2.png" alt="">
+                        </div>
+                        <div class="member-details">
+                            <h5 class="colored-text">Jose Carlos Sancho</h5>
+                            <div class="small-text">
+                                CEO & Cofounder
+                            </div>
+                        </div>
+                        <ul class="social-icons">
+                            <li>
+                                <a href="https://es.linkedin.com/in/josecsancho">
+                                    <span class="icon-social-linkedin dark-text"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/JoseCSancho">
+                                    <span class="icon-social-twitter dark-text"></span>
+                                </a>
+                            </li>
+                            <!--<li>-->
+                                <!--<a href="">-->
+                                    <!--<span class="icon-social-pinterest dark-text"></span>-->
+                                <!--</a>-->
+                            <!--</li>-->
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- MEMBER -->
+
+                <div class="col-md-3 col-sm-6">
+                    <div class="team-member wow flipInY" data-wow-offset="10" data-wow-duration="1s">
+                        <div class="member-pic">
+                            <img src="images/team/alexander.png" alt="">
+                        </div>
+                        <div class="member-details">
+                            <h5 class="colored-text">Alexander Salas</h5>
+                            <div class="small-text">
+                                CTO & Cofounder
+                            </div>
+                        </div>
+                        <ul class="social-icons">
+                            <li>
+                                <a href="https://es.linkedin.com/pub//108/2/638">
+                                    <span class="icon-social-linkedin dark-text"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/GuillermoTFM">
+                                    <span class="icon-social-twitter dark-text"></span>
+                                </a>
+                            </li>
+                            <!--<li>-->
+                                <!--<a href="">-->
+                                    <!--<span class="icon-social-pinterest dark-text"></span>-->
+                                <!--</a>-->
+                            <!--</li>-->
+                        </ul>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- =========================
+     SECTION: CALL TO ACTION   
+    ============================== -->
+    <section class="call-to-action" id="section11" data-stellar-background-ratio="0.1">
+        <div class="overlay-layer-2">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-md-8 col-md-offset-2">
+
+                        <div class="uppercase colored-text strong">
+                            <h2> STAY TUNED </h2>
+                        </div>
+
+                        <!-- SOCIAL ICONS -->
+                        <h2>
+                        <ul class="social-icons">
+                            <li><a href="https://www.facebook.com/hyppex"><span class="icon-social-facebook colored-text"></span></a></li>
+                            <li><a href="https://twitter.com/hyppextrade"><span class="icon-social-twitter colored-text "></span></a></li>
+                            <li><a href="https://www.linkedin.com/company/hyppex"><span class="icon-social-linkedin colored-text"></span></a></li>
+                        </ul>
+                        </h2>
+
+                        <h3 class="white-text"> Stay tuned for upcoming releases  </h3>
+
+                        <div class="horizontal-subscribe-form">
+
+                                        <form class="form-inline mailchimp">
+                                            
+                                            <input type="email" id="cf-email" name="email" class="form-control input-box" placeholder="Enter your Email">
+
+                                            <button type="submit" class="btn btn-primary standard-button">Subscribe</button>
+                                            
+                                        </form>
+
+                                        <!-- MAILCHIMP SUCCESS AND ERROR MESSAGE -->
+                                        <p class="mailchimp-success white-text"><span class="icon-check-alt2 colored-text"></span>Thanks! Please confirm your subscription from your email inbox</p>
+                                        <p class="mailchimp-error white-text"><span class="icon-close-alt2"></span>Error! Please enter correct email</p>
+                                    </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- REGISTRATION FORM FOR POPUP BOX -->
+    <div class="modal fade bs-example-modal-sm" id="stamp-modal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-md">
+            <div class="modal-content">
+                <div class="vertical-registration-form">
+                    <h4 class="dark-text form-heading">Get 1 Month FREE Trial Now</h4>
+                    <form class="registration-form" id="contact-form">
+                        <input type="text" id="cf-name" name="name" class="form-control input-box" placeholder="Name">
+                        <input type="email" id="cf-email" name="email" class="form-control input-box" placeholder="Email">
+                        <input type="text" id="cf-subject" name="subject" class="form-control input-box" placeholder="Subject">
+                        <textarea name="message" id="cf-message" class="form-control textarea-box" rows="4" placeholder="Message"></textarea>
+                        <button class="btn btn-primary standard-button">Get Started</button>
+                    </form>
+                    <p class="email-success dark-text">
+                        <span class="icon-check-alt2 colored-text"></span>Email sent successfully
+                    </p>
+                    <p class="email-error dark-text">
+                        <span class="icon-close-alt2"></span>Error! Please check all fields filled correctly
+                    </p>
+                    <!-- MAILCHIMP ALERTS 
+			        <p class="mailchimp-success dark-text"><span class="icon-check-alt2 colored-text"></span>We sent the confirmation to your email</p>
+			        <p class="mailchimp-error dark-text"><span class="icon-close-alt2"></span>Error! Please check all fields filled correctly</p>
+			        -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- =========================
+SEACTION: TWITTER
+============================== -->
+    <section class="brief white-bg-border" id="section20">
+        <div class="container">
+
+            <!-- SECTION HEADER -->
+            <div class="section-header">
+
+                <h2 class="dark-text">Latest news on twitter </h2>
+                <div class="colored-line"></div>
+            </div>
+
+            <a class="twitter-timeline" href="https://twitter.com/HyppexTrade" data-widget-id="726050620692660224">Tweets by @HyppexTrade</a>
+
+            <!--<a class="twitter-timeline"
+               href="https://twitter.com/hyppextrade"
+               data-widget-id=""
+               data-tweet-limit="1"
+               data-width= "600px"
+               data-height="600px"
+               data-chrome="noborders noscrollbar transparent"
+               data-tweet-limit="1"
+               data-aria-polite="assertive"
+            >
+                Tweets by @hyppextrade
+            </a>-->
+        </div>
+    </section>
+
+
+    <!-- =========================
+     SECTION: CONTACT INFO  
+    ============================== -->
+    <div class="contact-info white-bg">
+        <div class="container">
+
+            <!-- CONTACT INFO -->
+            <div class="row contact-links" >
+
+                <div class="col-sm-4 col-sm-offset-2">
+                    <div class="icon-container">
+                        <span class="icon-basic-mail colored-text"></span>
+                    </div>
+                    <a href="mailto:info@hyppex.trade" class="strong">info@hyppex.trade</a>
+                </div>
+
+                <div class="col-sm-4">
+                    <div class="icon-container">
+                        <span class="icon-basic-geolocalize-01 colored-text"></span>
+                    </div>
+                    <a href="" class="strong"> 20-22 Wenlock Road
+                        London
+                        N1 7GU
+                        England</a>
+                </div>
+
+                <!--<div class="col-sm-4">-->
+                    <!--<div class="icon-container">-->
+                        <!--<span class="icon-basic-tablet colored-text"></span>-->
+                    <!--</div>-->
+                    <!--<a href="tel:44-12-3456-7890" class="strong">+44-</a>-->
+                <!--</div>-->
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer grey-bg">
+        ©2016 Hyppex LTD. All Rights Reserved
+
+        <!-- OPTIONAL FOOTER LINKS -->
+        <ul class="footer-links small-text">
+            <li><a href="cookies.html" class="dark-text">Cookies</a>
+            </li>
+            <li><a href="terms.html" class="dark-text">Terms</a>
+            </li>
+            <li><a href="privacy.html" class="dark-text">Privacy</a>
+            </li>
+        </ul>
+
+
+    </footer>
+
+    <!-- =========================
+     SCRIPTS   
+    ============================== -->
+
+    <!-- Twitter-->
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+    </script>
+
+
+    <script src="js/jquery.min.js"></script>
+    <script>
+        /* PRE LOADER */
+        jQuery(window).load(function () {
+            "use strict";
+            jQuery(".status").fadeOut();
+            jQuery(".preloader").delay(1000).fadeOut("slow");
+        })
+    </script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.nav.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/nivo-lightbox.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/retina.min.js"></script>
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="js/jquery.videoBG.js"></script>
+
+    <!-- GOGLE MAP -->
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+
+    <!-- CUSTOM JS  -->
+    <script src="js/custom.js"></script>
+
+</body>
+
+</html>
